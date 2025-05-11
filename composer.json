@@ -1,0 +1,25 @@
+{
+    "name": "bruh0107/validate-lib",
+    "description": "Module for working with validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nastya",
+            "email": "anastasion0107@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "10.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validate\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
