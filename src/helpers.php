@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Validator;
+use src\Validator\Validator;
 
 function createValidator(array $fields, array $rules, array $messages = []): Validator
 {
