@@ -1,6 +1,6 @@
 <?php
 
-namespace Validators;
+namespace Validator\Validators;
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

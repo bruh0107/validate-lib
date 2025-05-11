@@ -18,10 +18,10 @@ class Validator
     public function __construct(array $fields, array $rules, array $messages = [])
     {
         $this->validators = [
-            'required' => \Validators\RequireValidator::class,
-            'unique' => \Validators\UniqueValidator::class,
-            'min' => \Validators\MinLengthValidator::class,
-            'max' => \Validators\MaxLengthValidator::class,
+            'required' => \Validator\Validators\RequireValidator::class,
+            'unique' => \Validator\Validators\UniqueValidator::class,
+            'min' => \Validator\Validators\MinLengthValidator::class,
+            'max' => \Validator\Validators\MaxLengthValidator::class,
         ];
         $this->fields = $fields;
         $this->rules = $rules;
