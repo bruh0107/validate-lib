@@ -22,6 +22,7 @@ class Validator
             'unique' => \Validator\Validators\UniqueValidator::class,
             'min' => \Validator\Validators\MinLengthValidator::class,
             'max' => \Validator\Validators\MaxLengthValidator::class,
+            'max_today' => \Validator\Validators\MaxTodayValidator::class,
         ];
         $this->fields = $fields;
         $this->rules = $rules;
